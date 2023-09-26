@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriella Catanese
+
+    </title>
+</head>
+<body>
+    <h1>Gabriella Catanese
+        <h2>docemmettbrown82@gmail.com
+			<p>
+				Ciao a tutti,Sono Gabriella e vivo vicino Roma.Sono una siciliana d’oc ma romana d’adozione da 20 anni.Mi sono diplomata in programmazione e poi ho deciso di virare e intraprendere all’università una laurea in lingue con conseguente specializzazione in Lis, la lingua italiana dei segni. Lavoro per un’azienda famosa nel settore GDO e per questo ero indecisa tra il corso part time e quello full stack di web developer che comincerà il 25 settembre , ma essendo “capocciona” e volendo fare le cose per bene ho ottenuto un nulla osta dalla mia azienda per poter frequentare il corso full time.Dopo la morte dei miei genitori e dopo due anni di decisioni difficili e strade per la maggior parte in salita ho deciso di voler ritornare al mio primo grande amore “la programmazione” per poter cambiare radicalmente vita.Non vedo l’ora di cominciare 
+			</p>
+			<p> Adoro il windsurf, lo skate,gli sport estremi
+			</p>
+            
+        </h2>
+    </h1>
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
+<doctype html>
+    <html lang="it">
+        <head>
+            
+
+
+
+
