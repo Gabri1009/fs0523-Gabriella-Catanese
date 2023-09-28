@@ -1,27 +1,55 @@
-.container{
-    width: 200px;
-    height:200px;
-    test-aligh:center;
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet')
+
+body{
+    padding: 15px;
+    background-image: url(../img/sfondo.png);
+    box-sizing: border-box;
 }
 
-
-    .container{
-        color:black;
-        background-color: yellow;
+/*rgb(0,160,198)
+rgba(3,109,134,1)*/
+/* HEADER */
+header{
+    padding: 20px 0;
+    margin-bottom: 10px;
+    background-image:linear gradient(to bottom,rgb(0,160,198), rgba(3,109,134,1)
+    
+}
+header img{
+width:200px;
+height:60px;
 
 }
 
-.container{
+/* MAIN */
+h1{
+    display: block;
+    font-size:2em;
+    margin-top:0,60;
+    margin-bottom:0,60;
+    margin-left: 0,30;
+    margin-right: 0,30;
+    text-align: center;
+}
+p{
     color:black;
-    test-align:center;
+    margin-left: 0,30;
+    margin-right: 0,30;
+    text-align: center;
+
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+.parti comuni{
+       color:grey;
+       
 
 
-}
-.container{
-    color:red;
-    
-}
-.container{
-    color: aquamarine;
-    
-}
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
