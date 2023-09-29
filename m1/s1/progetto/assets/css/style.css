@@ -1,0 +1,72 @@
+
+/*!
+ * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat'(bold);
+    font-weight: 400;
+
+
+}
+
+h3{
+    font-size: 1,4rem;
+    line-height: 1,5rem;
+    margin-bottom: 20px;
+
+
+}
+
+h4{
+    font-size: 1,3rem;
+    line-height: 1,5rem;
+}
+h5{
+    font-size: 1,2rem;
+
+}
+
+
+/*header*/
+#header{
+    background-color: black;
+
+    padding:40 px 0;
+
+}
+.button{
+    position:absolute;
+    background-color:#f04c2f;
+    top:50%;
+    font-size: Montserrat(bold);
+    color: white; 
+}
+/*corpo*/
+.container{
+    background-color:#393d41;
+    padding:18px;
+    margin-bottom: 20px;
+    line-height: 1,65;
+    font-size: Open sans;
+
+}
+
+
+
+
+
+
+#footer{
+    background-image: #25a2c3;
+    font-color:#c8e7f0;
+
+    
+    padding: 15
+}
+backgroun
+
+.
