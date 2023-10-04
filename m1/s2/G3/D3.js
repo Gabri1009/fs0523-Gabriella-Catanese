@@ -7,7 +7,7 @@ const starWarsCharacters = [
     skin_color: "fair",
     eye_color: "blue",
     birth_year: "19BBY",
-    gender: "male"
+    gender: "male",
   },
   {
     name: "C-3PO",
@@ -17,7 +17,7 @@ const starWarsCharacters = [
     skin_color: "gold",
     eye_color: "yellow",
     birth_year: "112BBY",
-    gender: "n/a"
+    gender: "n/a",
   },
   {
     name: "R2-D2",
@@ -27,7 +27,7 @@ const starWarsCharacters = [
     skin_color: "white, blue",
     eye_color: "red",
     birth_year: "33BBY",
-    gender: "n/a"
+    gender: "n/a",
   },
   {
     name: "Darth Vader",
@@ -37,7 +37,7 @@ const starWarsCharacters = [
     skin_color: "white",
     eye_color: "yellow",
     birth_year: "41.9BBY",
-    gender: "male"
+    gender: "male",
   },
   {
     name: "Leia Organa",
@@ -47,7 +47,7 @@ const starWarsCharacters = [
     skin_color: "light",
     eye_color: "brown",
     birth_year: "19BBY",
-    gender: "female"
+    gender: "female",
   },
   {
     name: "Owen Lars",
@@ -57,7 +57,7 @@ const starWarsCharacters = [
     skin_color: "light",
     eye_color: "blue",
     birth_year: "52BBY",
-    gender: "male"
+    gender: "male",
   },
   {
     name: "Beru Whitesun lars",
@@ -65,9 +65,9 @@ const starWarsCharacters = [
     mass: 75,
     hair_color: "brown",
     skin_color: "light",
-    eye_color: "blue",
+    eye_color: "blu    e",
     birth_year: "47BBY",
-    gender: "female"
+    gender: "female",
   },
   {
     name: "R5-D4",
@@ -77,7 +77,7 @@ const starWarsCharacters = [
     skin_color: "white, red",
     eye_color: "red",
     birth_year: "unknown",
-    gender: "n/a"
+    gender: "n/a",
   },
   {
     name: "Biggs Darklighter",
@@ -87,7 +87,7 @@ const starWarsCharacters = [
     skin_color: "light",
     eye_color: "brown",
     birth_year: "24BBY",
-    gender: "male"
+    gender: "male",
   },
   {
     name: "Obi-Wan Kenobi",
@@ -97,34 +97,85 @@ const starWarsCharacters = [
     skin_color: "fair",
     eye_color: "blue-gray",
     birth_year: "57BBY",
-    gender: "male"
-  }
+    gender: "male",
+  },
 ];
 
 /* ESERCIZIO 1
   Crea una variabile chiamata "characters" e assegnale un array vuoto
 */
 
-let characters = new Array[];
-
+let characters = new Array();
 console.log(characters);
-
 
 /* ESERCIZIO 2
   Utilizzando un ciclo for, cicla l'array "starWarsCharacters".
   Dovrai accedere alla proprietà "name" di ogni oggetto in esso contenuto, e inserirla nell'array "characters" creato precedentemente.
   Come risultato dovresti ottenere qualcosa di simile: ["Luke Skywalker", "C-3PO", "R2-D2", etc..]
 */
+{
+let starWarsCharacters = {
+  prop1: "name",
+  prop2: "height",
+  prop3: "mass",
+  prop4: "hair_color",
+  prop5: "skin_color",
+  prop6: "eye_color",
+  prop7: "birth_year",
+  prop8: "gender",
+};
+let prop = "";
+for (let x = 0; x <= 8; x++) {
+  prop += starWarsCharacters["prop${x}"] + "\n";
+  console.log(prop);
+}
+}
 
 /* ESERCIZIO 3
   Seguendo i passaggi precedenti crea un nuovo array chiamato "femaleCharacters" e inserisci al suo interno tutti gli oggetti femminili.
 */
 
+let femaleCharacters = newArray();
+console.log(femaleCharacters);
+let femaleCharacters = [
+{
+  name: "Leia Organa",
+  height: 150,
+  mass: 49,
+  hair_color: "brown",
+  skin_color: "light",
+  eye_color: "brown",
+  birth_year: "19BBY",
+  gender: "female",
+}
+{
+    name: "Beru Whitesun lars",
+    height: 165,
+    mass: 75,
+    hair_color: "brown",
+    skin_color: "light",
+    eye_color: "blu    e",
+    birth_year: "47BBY",
+    gender: "female",
+
+}
+  
+]
+
+
 /* ESERCIZIO 4
   Crea un oggetto "eyeColor" che abbia le seguenti proprietà: blue, yellow, brown, red, blue-gray.
   Ad ognuna di queste proprietà assegna come valore un array vuoto.
+  
 */
-
+let eyeColor = {
+  blue: [],
+  yellow: [],
+  brown: [],
+  red: [],
+  "blue-gray": [],
+};
+console.log(eyecolor);
 /* ESERCIZIO 5
   Utilizza uno switch statement per inserire uno ad uno gli oggetti dei personaggi di "starWarsCharacters" negli array relativi al colore degli occhi precedentemente creati.
   Ogni personaggio dovrà finire nell'array corrispondente al suo colore degli occhi (al valore della sua proprietà "eye_color").
@@ -133,6 +184,10 @@ console.log(characters);
 /* ESERCIZIO 6
   Usa un while loop per calcolare la massa totale dell'equipaggio. Salvala in una variabile chiamata "crewMass".
 */
+
+let crewmass = x ;
+
+
 
 /* ESERCIZIO 7
   Crea uno if/else statement per rivelare la tipologia di carico, utilizzando la massa totale, di un'ipotetica astronave contenente i personaggi dell'array "starWarsCharacters".
@@ -145,6 +200,29 @@ console.log(characters);
 
   Una volta fatto, modifica la massa di qualche elemento dell'equipaggio e vedi se riesci ad ottenere un messaggio diverso.
 */
+
+let mass = 1000;
+
+
+  
+
+    if (mass < 500){
+        console.log('Ship is under loaded');
+    }else if(mass > 500){
+        console.log('Ship is half loaded');
+
+    }
+    else if (mass>700) {
+      console.log('Warning: load is over 700');
+    }
+    else if(mass>900){
+      console.log('Critical load : Over 900')
+    }
+    else(mass>1000){
+      console.log('DANGER! OVERLOAD ALERT: escape from ship now!')
+    }
+  
+
 
 /* ESERCIZIO 8
   Usa un for loop per cambiare il valore della proprietà "gender" di alcuni personaggi dal valore "n/a" a "robot" (Tip: puoi effettuare la riassegnazione del valore corrispondente o creare un nuovo array)
