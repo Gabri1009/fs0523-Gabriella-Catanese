@@ -1,1 +1,121 @@
-/* Your styles here */
+.body{
+    font-family : Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    padding: 15px
+}
+.logo-container{
+    padding: 10px;
+    text-align: left;
+    margin-left: 40px;
+    width: 450px; 
+    height: auto;
+    background-color: rgb(32, 32, 61);
+}
+.logo-container img{
+    width: 1px;
+    height: 1px;
+    background-color:black;
+    display : inline-block;
+    position: absolute;
+    background-color: rgb(32, 32, 61);
+}
+.header{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+header nav ul {
+    margin: 0;
+}
+header nav ul {
+    margin: 0;
+}
+header nav li a {
+    color: white;
+    text-decoration: none;
+}
+.container1 {
+    test-align :left;
+    background-color: rgb(1, 1, 44);
+    padding :20px;
+    text-color:white;
+
+}
+.cont {
+    background-color: white;
+}
+.container2{
+    border-top: 1px;
+    background-color: orange;
+    padding: 20px;
+    text-align: center;
+    text-color:white;
+
+}
+.container3{
+    text-align: center;
+    color :white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+    .container4{
+        text-align: center;
+        color: #333;
+        font-size: 2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 1em;
+    
+    }
+    .container5{
+        text-align: center;
+        color : rgb(32, 32, 61);
+        font-size: 2rem;
+        text-color:white;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 1em;
+    }
+    }
+.immagini-container{
+    text-align: left;
+    color : rgb(32, 32, 61);
+    font-size: 2rem;
+    text-color:black;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1em
+
+}
+h3 {
+    font-size: 2.6rem;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+    margin-bottom: 0.7em;
+}
+h5{
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+    margin-bottom: 0.7em;
+}
+    h6{
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+    margin-bottom: 0.7em;
+
+    }
+.background-images{
+    text-align: center;
+    text-color: white;
+    color: #336e5f;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1em;    
+
+}
